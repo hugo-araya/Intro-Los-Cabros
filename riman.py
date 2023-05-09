@@ -3,7 +3,6 @@ if os.name == 'posix':
     os.system('clear')
 else:
     os.system('cls')
-print(os.listdir())
 pal1 = input("Palabra 1: ")
 pal2 = input("Palabra 2: ")
 largo1 = len(pal1)
