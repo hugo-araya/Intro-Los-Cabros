@@ -3,7 +3,8 @@ if os.name == 'posix':
     os.system('clear')
 else:
     os.system('cls')
-maes = input("Clave maestra: ")
+    
+maes = "12345678"
 clave1 = ''
 clave2 = ''
 i = 0
